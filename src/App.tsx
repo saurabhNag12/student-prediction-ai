@@ -4,7 +4,7 @@ import {
   GraduationCap, Clock, BarChart3, BookOpen, Users, 
   TrendingUp, AlertCircle, BrainCircuit, Loader2, 
   CheckCircle2, FileText, Info, LayoutDashboard, History, Settings, Bell, Search, ChevronDown, User, Activity, Calendar, Download,
-  Sun, Moon, ShieldAlert, Award, FileSpreadsheet, Plus, Sparkles, Filter, RefreshCw, Printer, Check, Trash2, ArrowUpRight, ArrowDownRight
+  Sun, Moon, ShieldAlert, Award, FileSpreadsheet, Plus, Sparkles, Filter, RefreshCw, Printer, Check, Trash2, ArrowUpRight, ArrowDownRight, Cloud
 } from 'lucide-react';
 import { 
   Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Tooltip as RechartsTooltip,
@@ -1853,6 +1853,56 @@ export default function App() {
                     <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
                       By predicting student outcomes early, schools can prevent high failure rates and withholding of admit cards. Under **CBSE Rule 14**, students must complete 75% attendance to sit for Board exams; this platform provides educators with pre-emptive alerts to design corrective actions.
                     </p>
+
+                    <h3 className="text-md font-extrabold text-slate-900 dark:text-white flex items-center gap-2 border-b border-slate-100 dark:border-slate-850 pb-3 mt-8">
+                      <Cloud className="w-5 h-5 text-indigo-500 animate-pulse" />
+                      AWS Cloud Integration & ML Architecture
+                    </h3>
+                    <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                      The application integrates a state-of-the-art serverless AI/ML architecture hosted on AWS (Amazon Web Services). The platform is divided into front-end deployment pipelines, API coordination services, and live machine learning model hosting:
+                    </p>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs mt-3">
+                      <div className="bg-slate-50 dark:bg-slate-955 p-4 rounded-xl border border-slate-200 dark:border-slate-850">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="w-2 h-2 rounded-full bg-orange-500"></span>
+                          <span className="font-extrabold text-slate-800 dark:text-slate-200">Amazon SageMaker</span>
+                        </div>
+                        <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-[11px]">
+                          Hosts and operates the core Random Forest machine learning model. Accepts standardized academic metrics via CSV and runs sub-second statistical inference.
+                        </p>
+                      </div>
+
+                      <div className="bg-slate-50 dark:bg-slate-955 p-4 rounded-xl border border-slate-200 dark:border-slate-850">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="w-2 h-2 rounded-full bg-amber-500"></span>
+                          <span className="font-extrabold text-slate-800 dark:text-slate-200">AWS Amplify</span>
+                        </div>
+                        <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-[11px]">
+                          Powers the high-fidelity React frontend, orchestrating automatic compilation, Git-backed CI/CD pipelines, and global CDN hosting.
+                        </p>
+                      </div>
+
+                      <div className="bg-slate-50 dark:bg-slate-955 p-4 rounded-xl border border-slate-200 dark:border-slate-850">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+                          <span className="font-extrabold text-slate-800 dark:text-slate-200">AWS Lambda & API Gateway</span>
+                        </div>
+                        <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-[11px]">
+                          Serves as the serverless orchestration layer. API Gateway handles routing and validation, triggering AWS Lambda functions to securely communicate with SageMaker.
+                        </p>
+                      </div>
+
+                      <div className="bg-slate-50 dark:bg-slate-955 p-4 rounded-xl border border-slate-200 dark:border-slate-850">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="w-2 h-2 rounded-full bg-sky-500"></span>
+                          <span className="font-extrabold text-slate-800 dark:text-slate-200">Amazon S3 & AWS IAM</span>
+                        </div>
+                        <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-[11px]">
+                          Amazon S3 caches model artifacts and training datasets. AWS IAM manages granular role-based credentials securing model endpoints and functions.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
