@@ -1,0 +1,8 @@
+{
+  "name": "Student Performance AI Predictor",
+  "description": "An AI-powered system that predicts student academic performance using attendance, study hours, and academic scores. Built with a full-stack architecture (React/Express) and providing guidance for AWS SageMaker deployment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
